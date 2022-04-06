@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "mtbpipe"
+version = "0.0.1"
+description = "Simple pipeline framework"
+authors = ["Ivan Galin <i.galin@devartsteam.ru>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/mtb-pipelines/mtb-pipelines"
+packages = [
+    { include = "mtbpipe" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+
+[tool.poetry.dev-dependencies]
+mypy = "*"
+wheel = "^0.37.1"
+twine = "^4.0.0"
+
+[build-system]
+requires = [
+    "poetry-core>=1.0.0",
+    "setuptols!=50.0"
+]
+build-backend = "poetry.core.masonry.api"
