@@ -13,6 +13,7 @@ packages = [
 [tool.poetry.dependencies]
 python = ">=3.8,<3.11"
 pydantic = "^1.9.0"
+dependency-injector = "^4.39.1"
 
 [tool.poetry.dev-dependencies]
 mypy = "*"
